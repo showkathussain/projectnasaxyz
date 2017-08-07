@@ -1,0 +1,8 @@
+/target/
+*.iml
+.DS_Store
+.idea/workspace.xml
+.idea
+.classpath
+.project
+.git
