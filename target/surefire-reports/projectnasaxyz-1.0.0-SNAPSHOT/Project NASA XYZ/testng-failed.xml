@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Project NASA XYZ]" parallel="classes">
+  <test name="Project NASA XYZ Tests(failed)" parallel="classes">
+    <groups>
+      <run>
+        <include name="regression"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="gov.nasa.tests.NasaApiTests">
+        <methods>
+          <include name="searchTestValue"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="apiKeyTestResponseCode"/>
+          <include name="limitTestValue"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="validateJsonSchemaAndDataTypeBySerializingAndDeserializing"/>
+          <include name="searchTestWithLimitValue"/>
+          <include name="searchTestResponseCode"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="searchTestWithLimitResponseCode"/>
+          <include name="limitTestResponseCode"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- gov.nasa.tests.NasaApiTests -->
+    </classes>
+  </test> <!-- Project NASA XYZ Tests(failed) -->
+</suite> <!-- Failed suite [Project NASA XYZ] -->

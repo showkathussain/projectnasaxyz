@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="8" ignored="0" total="8" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=25]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=0]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=64]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=-1]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=string]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?limit=10]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=25]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&q=]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&q=]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&q=&limit=20]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&q=&limit=20]]>
+    </line>
+    <line>
+      <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY]]>
+    </line>
+  </reporter-output>
+  <suite name="Project NASA XYZ" duration-ms="5324" started-at="2017-08-07T04:56:37Z" finished-at="2017-08-07T04:56:43Z">
+    <groups>
+      <group name="apiKeyTestResponseCode">
+        <method signature="NasaApiTests.apiKeyTestResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="apiKeyTestResponseCode" class="gov.nasa.tests.NasaApiTests"/>
+      </group> <!-- apiKeyTestResponseCode -->
+      <group name="searchTestWithLimitResponseCode">
+        <method signature="NasaApiTests.searchTestWithLimitResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestWithLimitResponseCode" class="gov.nasa.tests.NasaApiTests"/>
+      </group> <!-- searchTestWithLimitResponseCode -->
+      <group name="regression">
+        <method signature="NasaApiTests.apiKeyTestResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="apiKeyTestResponseCode" class="gov.nasa.tests.NasaApiTests"/>
+        <method signature="NasaApiTests.limitTestResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="limitTestResponseCode" class="gov.nasa.tests.NasaApiTests"/>
+        <method signature="NasaApiTests.limitTestValue()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="limitTestValue" class="gov.nasa.tests.NasaApiTests"/>
+        <method signature="NasaApiTests.searchTestResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestResponseCode" class="gov.nasa.tests.NasaApiTests"/>
+        <method signature="NasaApiTests.searchTestValue()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestValue" class="gov.nasa.tests.NasaApiTests"/>
+        <method signature="NasaApiTests.searchTestWithLimitResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestWithLimitResponseCode" class="gov.nasa.tests.NasaApiTests"/>
+        <method signature="NasaApiTests.searchTestWithLimitValue()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestWithLimitValue" class="gov.nasa.tests.NasaApiTests"/>
+        <method signature="NasaApiTests.validateJsonSchemaAndDataTypeBySerializingAndDeserializing()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="validateJsonSchemaAndDataTypeBySerializingAndDeserializing" class="gov.nasa.tests.NasaApiTests"/>
+      </group> <!-- regression -->
+      <group name="limitTestResponseCode">
+        <method signature="NasaApiTests.limitTestResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="limitTestResponseCode" class="gov.nasa.tests.NasaApiTests"/>
+      </group> <!-- limitTestResponseCode -->
+      <group name="searchTestWithLimitValue">
+        <method signature="NasaApiTests.searchTestWithLimitValue()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestWithLimitValue" class="gov.nasa.tests.NasaApiTests"/>
+      </group> <!-- searchTestWithLimitValue -->
+      <group name="searchTestValue">
+        <method signature="NasaApiTests.searchTestValue()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestValue" class="gov.nasa.tests.NasaApiTests"/>
+      </group> <!-- searchTestValue -->
+      <group name="validateJsonSchemaAndDataTypeBySerializingAndDeserializing">
+        <method signature="NasaApiTests.validateJsonSchemaAndDataTypeBySerializingAndDeserializing()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="validateJsonSchemaAndDataTypeBySerializingAndDeserializing" class="gov.nasa.tests.NasaApiTests"/>
+      </group> <!-- validateJsonSchemaAndDataTypeBySerializingAndDeserializing -->
+      <group name="searchTestResponseCode">
+        <method signature="NasaApiTests.searchTestResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestResponseCode" class="gov.nasa.tests.NasaApiTests"/>
+      </group> <!-- searchTestResponseCode -->
+      <group name="limitTestValue">
+        <method signature="NasaApiTests.limitTestValue()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="limitTestValue" class="gov.nasa.tests.NasaApiTests"/>
+      </group> <!-- limitTestValue -->
+    </groups>
+    <test name="Project NASA XYZ Tests" duration-ms="5324" started-at="2017-08-07T04:56:37Z" finished-at="2017-08-07T04:56:43Z">
+      <class name="gov.nasa.tests.NasaApiTests">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="8" started-at="2017-08-07T00:56:37Z" finished-at="2017-08-07T00:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1016" started-at="2017-08-07T00:56:37Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-08-07T00:56:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-08-07T00:56:38Z" finished-at="2017-08-07T00:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.apiKeyTestResponseCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="FAIL" signature="apiKeyTestResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="apiKeyTestResponseCode" duration-ms="2923" started-at="2017-08-07T00:56:38Z" finished-at="2017-08-07T00:56:41Z">
+          <exception class="org.springframework.web.client.HttpClientErrorException">
+            <message>
+              <![CDATA[403 Forbidden]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.web.client.HttpClientErrorException: 403 Forbidden
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:700)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:653)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590)
+	at gov.nasa.tests.support.api.ApiService.getStatusCode(ApiService.java:47)
+	at gov.nasa.tests.service.NasaSoundApiService.getResponseCode(NasaSoundApiService.java:65)
+	at gov.nasa.tests.NasaApiTests.apiKeyTestResponseCode(NasaApiTests.java:159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:209)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:221)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:657)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.web.client.HttpClientErrorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY]]>
+            </line>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apiKeyTestResponseCode -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:41Z" finished-at="2017-08-07T00:56:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.apiKeyTestResponseCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="FAIL" signature="limitTestResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="limitTestResponseCode" duration-ms="1032" started-at="2017-08-07T00:56:41Z" finished-at="2017-08-07T00:56:42Z">
+          <exception class="org.springframework.web.client.HttpClientErrorException">
+            <message>
+              <![CDATA[403 Forbidden]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.web.client.HttpClientErrorException: 403 Forbidden
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:700)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:653)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590)
+	at gov.nasa.tests.support.api.ApiService.getStatusCode(ApiService.java:47)
+	at gov.nasa.tests.service.NasaSoundApiService.getResponseCode(NasaSoundApiService.java:65)
+	at gov.nasa.tests.NasaApiTests.limitTestResponseCode(NasaApiTests.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:209)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:221)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:657)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.web.client.HttpClientErrorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=25]]>
+            </line>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=0]]>
+            </line>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=64]]>
+            </line>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=-1]]>
+            </line>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=]]>
+            </line>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=string]]>
+            </line>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?limit=10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- limitTestResponseCode -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:41Z" finished-at="2017-08-07T00:56:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.limitTestResponseCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.limitTestResponseCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="FAIL" signature="limitTestValue()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="limitTestValue" duration-ms="40" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <exception class="org.springframework.web.client.HttpClientErrorException">
+            <message>
+              <![CDATA[429 null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.web.client.HttpClientErrorException: 429 null
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:700)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:653)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590)
+	at gov.nasa.tests.support.api.ApiService.getResponse(ApiService.java:35)
+	at gov.nasa.tests.service.NasaSoundApiService.getResponse(NasaSoundApiService.java:42)
+	at gov.nasa.tests.NasaApiTests.limitTestValue(NasaApiTests.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:209)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:221)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:657)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.web.client.HttpClientErrorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&limit=25]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- limitTestValue -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.limitTestValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.limitTestValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="FAIL" signature="searchTestResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestResponseCode" duration-ms="35" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <exception class="org.springframework.web.client.HttpClientErrorException">
+            <message>
+              <![CDATA[429 null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.web.client.HttpClientErrorException: 429 null
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:700)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:653)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590)
+	at gov.nasa.tests.support.api.ApiService.getStatusCode(ApiService.java:47)
+	at gov.nasa.tests.service.NasaSoundApiService.getResponseCode(NasaSoundApiService.java:74)
+	at gov.nasa.tests.NasaApiTests.searchTestResponseCode(NasaApiTests.java:223)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:209)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:221)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:657)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.web.client.HttpClientErrorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&q=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTestResponseCode -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.searchTestResponseCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.searchTestResponseCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.searchTestValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="FAIL" signature="searchTestValue()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestValue" duration-ms="56" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <exception class="org.springframework.web.client.HttpClientErrorException">
+            <message>
+              <![CDATA[429 null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.web.client.HttpClientErrorException: 429 null
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:700)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:653)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590)
+	at gov.nasa.tests.support.api.ApiService.getResponse(ApiService.java:35)
+	at gov.nasa.tests.service.NasaSoundApiService.getResponse(NasaSoundApiService.java:42)
+	at gov.nasa.tests.NasaApiTests.searchTestValue(NasaApiTests.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:209)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:221)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:657)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.web.client.HttpClientErrorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&q=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTestValue -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.searchTestValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.searchTestWithLimitResponseCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="FAIL" signature="searchTestWithLimitResponseCode()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestWithLimitResponseCode" duration-ms="86" started-at="2017-08-07T00:56:42Z" finished-at="2017-08-07T00:56:43Z">
+          <exception class="org.springframework.web.client.HttpClientErrorException">
+            <message>
+              <![CDATA[429 null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.web.client.HttpClientErrorException: 429 null
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:700)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:653)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590)
+	at gov.nasa.tests.support.api.ApiService.getStatusCode(ApiService.java:47)
+	at gov.nasa.tests.service.NasaSoundApiService.getResponseCode(NasaSoundApiService.java:85)
+	at gov.nasa.tests.NasaApiTests.searchTestWithLimitResponseCode(NasaApiTests.java:290)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:209)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:221)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:657)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.web.client.HttpClientErrorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&q=&limit=20]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTestWithLimitResponseCode -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:43Z" finished-at="2017-08-07T00:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.searchTestWithLimitResponseCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="FAIL" signature="searchTestWithLimitValue()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="searchTestWithLimitValue" duration-ms="40" started-at="2017-08-07T00:56:43Z" finished-at="2017-08-07T00:56:43Z">
+          <exception class="org.springframework.web.client.HttpClientErrorException">
+            <message>
+              <![CDATA[429 null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.web.client.HttpClientErrorException: 429 null
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:700)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:653)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590)
+	at gov.nasa.tests.support.api.ApiService.getResponse(ApiService.java:35)
+	at gov.nasa.tests.service.NasaSoundApiService.getResponse(NasaSoundApiService.java:53)
+	at gov.nasa.tests.NasaApiTests.searchTestWithLimitValue(NasaApiTests.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:209)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:221)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:657)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.web.client.HttpClientErrorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY&q=&limit=20]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTestWithLimitValue -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:43Z" finished-at="2017-08-07T00:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.searchTestWithLimitValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-08-07T00:56:43Z" finished-at="2017-08-07T00:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.searchTestWithLimitValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-08-07T00:56:43Z" finished-at="2017-08-07T00:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.validateJsonSchemaAndDataTypeBySerializingAndDeserializing()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="FAIL" signature="validateJsonSchemaAndDataTypeBySerializingAndDeserializing()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="validateJsonSchemaAndDataTypeBySerializingAndDeserializing" duration-ms="54" started-at="2017-08-07T00:56:43Z" finished-at="2017-08-07T00:56:43Z">
+          <exception class="org.springframework.web.client.HttpClientErrorException">
+            <message>
+              <![CDATA[429 null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.web.client.HttpClientErrorException: 429 null
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:700)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:653)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:628)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:590)
+	at gov.nasa.tests.support.api.ApiService.getResponse(ApiService.java:35)
+	at gov.nasa.tests.service.NasaSoundApiService.getResponseAsString(NasaSoundApiService.java:26)
+	at gov.nasa.tests.NasaApiTests.validateJsonSchemaAndDataTypeBySerializingAndDeserializing(NasaApiTests.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:209)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:221)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:657)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.web.client.HttpClientErrorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[https://api.nasa.gov/planetary/sounds?api_key=DEMO_KEY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateJsonSchemaAndDataTypeBySerializingAndDeserializing -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:43Z" finished-at="2017-08-07T00:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:gov.nasa.tests.NasaApiTests@fe8aaeb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-08-07T00:56:43Z" finished-at="2017-08-07T00:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void gov.nasa.tests.NasaApiTests.validateJsonSchemaAndDataTypeBySerializingAndDeserializing()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- gov.nasa.tests.NasaApiTests -->
+    </test> <!-- Project NASA XYZ Tests -->
+  </suite> <!-- Project NASA XYZ -->
+</testng-results>

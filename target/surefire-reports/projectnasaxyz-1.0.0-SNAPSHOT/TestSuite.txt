@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 5.868 s <<< FAILURE! - in TestSuite
+apiKeyTestResponseCode(gov.nasa.tests.NasaApiTests)  Time elapsed: 2.925 s  <<< FAILURE!
+org.springframework.web.client.HttpClientErrorException: 403 Forbidden
+	at gov.nasa.tests.NasaApiTests.apiKeyTestResponseCode(NasaApiTests.java:159)
+
+limitTestResponseCode(gov.nasa.tests.NasaApiTests)  Time elapsed: 1.032 s  <<< FAILURE!
+org.springframework.web.client.HttpClientErrorException: 403 Forbidden
+	at gov.nasa.tests.NasaApiTests.limitTestResponseCode(NasaApiTests.java:137)
+
+limitTestValue(gov.nasa.tests.NasaApiTests)  Time elapsed: 0.04 s  <<< FAILURE!
+org.springframework.web.client.HttpClientErrorException: 429 null
+	at gov.nasa.tests.NasaApiTests.limitTestValue(NasaApiTests.java:82)
+
+searchTestResponseCode(gov.nasa.tests.NasaApiTests)  Time elapsed: 0.035 s  <<< FAILURE!
+org.springframework.web.client.HttpClientErrorException: 429 null
+	at gov.nasa.tests.NasaApiTests.searchTestResponseCode(NasaApiTests.java:223)
+
+searchTestValue(gov.nasa.tests.NasaApiTests)  Time elapsed: 0.056 s  <<< FAILURE!
+org.springframework.web.client.HttpClientErrorException: 429 null
+	at gov.nasa.tests.NasaApiTests.searchTestValue(NasaApiTests.java:183)
+
+searchTestWithLimitResponseCode(gov.nasa.tests.NasaApiTests)  Time elapsed: 0.087 s  <<< FAILURE!
+org.springframework.web.client.HttpClientErrorException: 429 null
+	at gov.nasa.tests.NasaApiTests.searchTestWithLimitResponseCode(NasaApiTests.java:290)
+
+searchTestWithLimitValue(gov.nasa.tests.NasaApiTests)  Time elapsed: 0.039 s  <<< FAILURE!
+org.springframework.web.client.HttpClientErrorException: 429 null
+	at gov.nasa.tests.NasaApiTests.searchTestWithLimitValue(NasaApiTests.java:252)
+
+validateJsonSchemaAndDataTypeBySerializingAndDeserializing(gov.nasa.tests.NasaApiTests)  Time elapsed: 0.055 s  <<< FAILURE!
+org.springframework.web.client.HttpClientErrorException: 429 null
+	at gov.nasa.tests.NasaApiTests.validateJsonSchemaAndDataTypeBySerializingAndDeserializing(NasaApiTests.java:314)
+

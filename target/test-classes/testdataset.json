@@ -1,0 +1,117 @@
+{
+  "testDataSet":
+  {
+    "limit": [
+      {
+        "type": "positive",
+        "value": 25,
+        "responseCode": 200
+      },
+      {
+        "type": "positive - boundary - min",
+        "value": 0,
+        "responseCode": 200
+      },
+      {
+        "type": "positive - boundary - max",
+        "value": 100,
+        "responseCode": 200
+      },
+      {
+        "type": "negative - min",
+        "value": -1,
+        "responseCode": 200
+      },
+      {
+        "type": "negative - null",
+        "value": null,
+        "responseCode": 200
+      },
+      {
+        "type": "negative - invalid data type",
+        "value": "abcd",
+        "responseCode": 200
+      }
+    ],
+    "search": [
+      {
+        "type": "positive - shows all",
+        "value": "",
+        "responseCode": 200
+      },
+      {
+        "type": "positive - valid data",
+        "value": "jfk",
+        "responseCode": 200
+      },
+      {
+        "type": "negative - special character",
+        "value": "@#$%^!&*{}()",
+        "responseCode": 200
+      },
+      {
+        "type": "negative - invalid number",
+        "value": "5123413423445567567657134321423423413243435",
+        "responseCode": 200
+      }
+    ],
+    "apiKey": [
+      {
+        "type": "positive",
+        "value": "DEMO_KEY",
+        "responseCode": 200
+      },
+      {
+        "type": "negative - null",
+        "value": null,
+        "responseCode": 403
+      },
+      {
+        "type": "negative - empty",
+        "value": "",
+        "responseCode": 403
+      },
+      {
+        "type": "negative - invalid data type",
+        "value": 100,
+        "responseCode": 403
+      },
+      {
+        "type": "negative - invalid data type",
+        "value": "$*",
+        "responseCode": 403
+      },
+      {
+        "type": "negative - invalid key",
+        "value": "abcd",
+        "responseCode": 403
+      }
+    ],
+    "searchWithLimit": [
+      {
+        "type": "positive - valid data - scenario 1",
+        "search": "",
+        "limit": 20,
+        "responseCode": 200
+      },
+      {
+        "type": "positive - valid data - scenario 2",
+        "search": "jfk",
+        "limit": 3,
+        "responseCode": 200
+      },
+      {
+        "type": "negative - invalid data - scenario 1",
+        "search": "@#$%^!&*{}()",
+        "limit": 40,
+        "responseCode": 200
+      },
+      {
+        "type": "negative - invalid data - scenario 2",
+        "search": "5123413423445567567657134321423423413243435",
+        "limit": 40,
+        "responseCode": 200
+      }
+    ]
+  }
+}
